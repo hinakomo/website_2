@@ -1,0 +1,174 @@
+
+.header-left{
+    float:left;
+    position:absolute;
+    top:100px;
+    left:100px;
+    font-size:50px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.clear { 
+    clear: both; 
+    }
+
+.container{
+    width:820px;
+    margin:0 auto;
+}
+
+.top-wrapper{
+    position: relative;
+    background-image: url(../img/main_visual.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:800px;
+}
+
+
+.nav-bar{
+    color:white;
+    list-style: none;
+    float:left;
+    padding:100px;
+    font-family:'Varela Round', sans-serif;
+}
+
+.nav-bar li{
+    display:inline-block;
+    font-size:20px;
+    margin-top:80px;
+    margin-right:50px;
+    border-bottom:dashed 1px #f6f6f6;
+
+}
+
+
+
+.introduction{
+    background-color:#f6f6f6;
+    padding-top:110px;
+    padding-bottom:110px;
+    text-align: center;
+}
+
+.introduction p{
+    text-align: left;
+    display: inline-block;
+    line-height: 2.5rem;
+    font-size:20px;
+}
+
+.introduction h1{
+    padding-top:50px;
+    font-weight: normal;
+    font-size:45px;
+    line-height:1em;
+    margin-bottom: 35px;
+}
+
+.country-title, .diary-title{
+    display: inline-block;
+    font-family:'Varela Round', sans-serif;
+    font-size: 40px;
+    margin:50px;
+    color:#708090;
+    border-bottom: dashed 3px #708090;
+}
+.posts{
+    background-color:#f6f6f6;
+    width:100%;
+    padding-top: 110px;
+    padding-bottom:110px;
+}
+
+.flex{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    width:220px;
+    height:400px;
+}
+.item img{
+   width:200px;
+   height:300px;
+   border-radius: 5%;
+}
+
+.item-name{
+    font-family:'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 5px 20px;
+    color:#696969;
+}
+
+
+.news{
+    background-color: #f6f6f6;
+    display:block;
+    width:auto;
+}
+
+.news-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item{
+    margin-bottom:30px;
+}
+
+
+
+.newslist img{
+    width:250px;
+    height:150px;
+    float:left;
+    margin-right:20px;
+}
+
+.date{
+    font-weight: bold;
+    font-size:15px;
+}
+
+.deteal{
+    font-size:5px;
+}
+.newsdeteal{
+    width:300px;
+    float:right;
+}
+
+
+.containter4{
+    background-color: blue;
+    width:1430px;
+    height:300px;
+}
+
+.menu-end{
+    width:100%;
+    height:50px;
+    background-color:#939899;
+    display:block;
+}
+
+
+footer{
+    background-color:#656c6e;
+    display:block;
+}
+
+.copylights p{
+    color:white;
+    font-size:10px;
+    text-align: center;
+
+}
